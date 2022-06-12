@@ -1,1 +1,1 @@
-https://github.com/Clou2Dy/rsschool-cv
+https://github.com/Clou2Dy/rsschool-cv/blob/main/cv.md
