@@ -94,6 +94,7 @@ body {
   .section {
     position: absolute;
     left: -100px;
+    
   }
   
   @media (max-width: 768px) {
