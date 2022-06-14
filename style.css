@@ -75,10 +75,9 @@ body {
     padding: 0 10px;
     line-height: 20px;
     font-weight: 600;
-    position: center;
   }
   .nav-item a{
-    color: #a1a1d1;
+    color: #0897bb;
     text-decoration: none;  
     transition: color 0.5s;
   }
@@ -92,7 +91,7 @@ body {
   .section {
     width: 50%;
   }
-  .section:summary {
+  .section {
     position: absolute;
     left: -100px;
   }
@@ -110,7 +109,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff
+    color: #0897bb
   }
   .section-title {
     font-size: 20px;
