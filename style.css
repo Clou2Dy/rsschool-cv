@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth; 
+  }  
+body {font-family: 'Open Sans', sans-serif;}
+*{
+    box-sizing: border-box;
+}
+
+header {background-color:#0c2b29 ;}
+main {
+  width: 100%;
+  height: 200%;
+  /* background-color: #273c5b; */
+    /* background-image: url(./assets/img/4.jpg);
+      background-repeat: no-repeat;
+      background-color: black; 
+      background-position: center;   */
+    }
+footer{background-color: #0c2b29;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:55px;
+  width:100%;
+}
+body {
+    min-height: 80vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #273c5b;
+    background-image: url(./assets/img/4.jpg);
+      background-repeat: no-repeat;
+      background-color: rgb(10, 9, 9); 
+      background-position: center; 
+
+  }
+  .footer-img {
+    right: 10px;
+    margin: 5px;
+    width: 100px;
+    padding-bottom: 50px;
+    position: absolute;
+
+  }
+  .main-img{
+    position: relative;
+    top: -30px;
+    right: -100px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+  
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .ppp {
+    text-decoration: underline;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    margin-right:40px;
+    padding: 0 10px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .nav-item a{
+    color: #0897bb;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #4d2323;
+  }
+  .main-container { 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 50%;
+  }
+  .section {
+    position: absolute;
+    left: -100px;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0897bb
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+  .section{
+    position: relative;
+    left: 200px ;
+  }
+.Profile {
+  position: relative;
+  left: 100px;
+}
+.icons {
+ width: 25px;
+}
+/* p {
+  border-bottom: 5px solid maroon;
+  font-weight: bold ;
+  padding-bottom: 100px;
+  position: relative;
+  right: -00px;
+ } */
+ .git {
+  position: fixed;
+ }
+ .strong {
+  color: #0897bb;
+ }
+ .yong {
+  margin-left: auto;
+  margin-right: 500px;
+  width: 30em
+}
