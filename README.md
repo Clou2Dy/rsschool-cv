@@ -1,1 +1,2 @@
-https://github.com/Clou2Dy/rsschool-cv
+https://Clou2Dy.github.io/rsschool-cv/cv
+https://Clou2Dy.github.io/rsschool-cv/
