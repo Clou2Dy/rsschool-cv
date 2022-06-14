@@ -46,7 +46,7 @@ body {
   }
   .main-img{
     position: relative;
-    top: -30px;
+    top: 10px;
     right: -100px;
     border-radius: 50%;
     width: 200px;
