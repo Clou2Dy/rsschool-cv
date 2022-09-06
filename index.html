@@ -1,82 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="-.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="-.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header class = 'header'>
-        <div class="container"></div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+  <body>
+    <header class="header">
+      <nav class="headerContent">
+        <img class="main-img" src="./assets/img/my-foto.jpg" alt="avatar" />
+        <ul class="headerText">
+          <strong>Igor Danilov</strong>
+          <p>Front-End developer</p>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="about">
+          <strong>ABOUT</strong>
+          <p>
+            Young programmer, in my spare time I try to learn programming,
+            move slowly towards the goal.
+            Start study programming in march 2022.
+          </p>
+        </ul>
+        <ul>
+          <h3></h3>
+        </ul>
+      </nav>
+      <nav class="info">
+        <ul></ul>
+      </nav>
+      <div class="container"></div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <!-- <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <!-- <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li> -->
-                <!-- <li class="nav-item"><a href="#project" class="nav-link">Project</a></li> -->
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#languages" class="nav-link">English</a></li>
-            </ul>
-        </nav>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li> -->
+          <!-- <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li> -->
+          <!-- <li class="nav-item"><a href="#project" class="nav-link">Project</a></li> -->
+          <!-- <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">English</a></li> -->
+        </ul>
+      </nav>
     </header>
-    <main class ='main'>
-        <div class="container">
+    <main class="main">
+      <div class="container">
         <div class="main-container">
-            <section class="section" id="Profile"><h1 class="ppp">Igor Danilov</h1>
-            <p >16.04.1999 (23 age)</p></section>
-            <img class="main-img" src="./assets/img/2cop.jpg" alt="avatar">
-            <section class="section" id="contacts"><h1>Contacts</h1>
-                <div class="github">
-                    <ul>
-                        <li>
-                        <p>Belarus, Borisov</p>
-                        </li>
-                        <li><p>Email:&nbsp;danilovigor199@gmail.com</p></li>
-                        <li><p>Discord:&nbsp;Clou2Dy#2505</p></li>
-                        <li><p>VK: <a class='vk' href="https://vk.com/cloudy99" target="_blank"><strong class="strong">Igor Danilov</strong></a></p></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section" id="summary"><h1>Summary</h1>
-            <h4 class="yong">Young programmer, in my spare time I try to learn programming,
-                 move slowly towards the goal.</h4>
-            </section>
-            <section class="section" id="skills"><h1>Skills</h1>
-                <h4>HTML, CSS, JS</h4>
-            </section>
-            <section class="section" id="code"><h1>Code</h1>
-                <p>var humanYearsCatYearsDogYears = function(y) {
-                    <br>
-                    if (y == 1) return [1, 15, 15]
-                    <br>
-                    if (y == 2) return [2, 24, 24]
-                    <br>
-                    return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
-                  }</p></section>
-            <!-- <section class="section" id="courses"><h1>Courses</h1></section> -->
-            <!-- <section class="section" id="project"><h1>Project</h1></section> -->
-            <section class="section" id="education">
-                <h1>Education</h1>
-                <h4>Vileika State College</h4>
-            </section>
-            <section class="section" id="languages"><h1>English</h1>
-            <h4>A1-A2</h4>
-            </section>
+          <section class="section" id="Profile">
+            <h1 class="cent">INFO</h1>
+            <hr />
+            <strong
+              >AGE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23</strong
+            >
+
+            <strong
+              >RELATIONSHIP:
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SINGLE</strong
+            >
+            <strong
+              >NATIONALITY:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp; BELARUS</strong
+            >
+            <hr />
+          </section>
+          <section class="section" id="summary">
+            <h1 class="cent">WORK EXPERIENCE</h1>
+            <strong class="yong">
+              No work experience
+            </strong>
+          </section>
+          <section class="section" id="contacts">
+            <h1 class="cent">Contacts</h1>
+            <hr />
+            <div class="github">
+              <ul>
+                <li><strong>Email:&nbsp;danilovigor199@gmail.com</strong></li>
+                <li><strong>Discord:&nbsp;Clou2Dy#2505</strong></li>
+                <li>
+                  <strong>
+                    VK:
+                    <a class="vk" href="https://vk.com/cloudy99" target="_blank"
+                      ><strong class="strong">Igor Danilov</strong></a
+                    >
+                  </strong>
+                </li>
+              </ul>
+              <hr>
+            </div>
+          </section>
+          <section class="section" id="code">
+            <h1 class="cent">Code</h1>
+            <p>
+              var humanYearsCatYearsDogYears = function(y) {
+              <br />
+              if (y == 1) return [1, 15, 15]
+              <br />
+              if (y == 2) return [2, 24, 24]
+              <br />
+              return [y, (y-2) * 4 + 24, (y-2) * 5 + 24] }
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h1 class="cent">Skills</h1>
+            <hr />
+            <ul class="skillsList">
+              <li>HTML<li>JS</li><li>CSS</li><li>React</li></li>
+            </ul>
+            <hr />
+          </section>
+          <section class="section" id="education">
+            <h1 class="cent">Education</h1>
+            <h4>Vileika State College</h4>
+            <h4>RS SCHOOL stage 0</h4>
+          </section>
+          <section class="section" id="languages">
+            <hr>
+            <h1 class="cent">English</h1>
+            <h4>A1-A2 (Independent study in game) </h4>
+            <hr>
+          </section>
         </div>
-        </div>
-</main>
-<footer class = 'footer'>
-    <div class="container">2022&nbsp;&nbsp;&nbsp;&nbsp;<a class ='git' href="https://github.com/Clou2Dy" target="blanck"><img src="./assets/img/github-24.png" alt="GitHub"></a>
-     <a href="https://rs.school/js/" target="blanck"><img class="footer-img" src="./assets/img/i5sa3vi1hDE.jpg" alt="RSschool" ></a>
-    </div>
-</footer>
-</body>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="containerFot">
+          <a
+          class="git"
+          href="https://github.com/Clou2Dy"
+          target="blanck"
+          ><img src="./assets/img/github-24.png" alt="GitHub"
+          /></a>
+          <a href="https://rs.school/js/" target="blanck"
+          ><img
+          class="footer-img"
+          src="./assets/img/i5sa3vi1hDE.jpg"
+          alt="RSschool"
+          /></a>
+          <h4>2022</h4>
+      </div>
+      </footer>
+    </body>
 </html>
